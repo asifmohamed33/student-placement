@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html Lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>STUDENT PLACEMENT DETAILS</title>
+        <link rel="stylesheet" href="home.css">
+    </head>
+    <script>
+        function showNavbar()
+        {
+            document.getElementById('sidebar').classList.toggle('active');
+        }
+        showNavbar();
+    </script>
+    </head>
+    <body>
+        <div class="home-image">
+            <img src="Images/logo.png"/>
+        </div>
+        <div id="sidebar">
+            <div class="toggleMenu" onclick="showNavbar()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li>Admin
+                    <ul class="Admin">
+                        <li>Upload Details</li>
+                        <li>Student Details</li>
+                        <li>Company Details</li>
+                    </ul>
+                </li>
+                <li>Home</li>
+                <li><a href="about.html">About</a></li>
+                <li>Contact</li>
+                 <li>Logout</li>
+         </ul>
+        </div>
+    </body>
+</html>
+
